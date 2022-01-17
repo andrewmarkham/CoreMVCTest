@@ -24,6 +24,6 @@ steps:
   inputs:
     azureSubscription: 'Pay-As-You-Go (f5ff96e9-7e42-4163-9e9a-5fc19412c96c)'
     appType: 'webAppLinux'
-    appName: 'andy-mvc-test'
+    appName: 'andy-linux-test'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
     runtimeStack: 'DOTNETCORE|5.0'
